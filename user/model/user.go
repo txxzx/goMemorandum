@@ -14,7 +14,7 @@ type User struct {
 	// 用户
 	Username string `json:"username"`
 	// 密码加密
-	PasswordDigest string `json:"password"`
+	PasswordDigest string `json:"password_digest"`
 }
 
 const (
