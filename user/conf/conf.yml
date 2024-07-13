@@ -1,0 +1,10 @@
+service:
+  app_model: debug
+  http_port: :3000
+
+mysql:
+  db_host: 127.0.0.127
+  db_port: 3306
+  db_user: root
+  db_password: 123456789
+  db_name: micro_todolist
