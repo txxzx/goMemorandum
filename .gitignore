@@ -17,6 +17,7 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 user/go.sum
+gateWay/go.sum
 .idea
 # Go workspace file
 go.work
