@@ -1,19 +1,24 @@
 package main
 
 import (
+	"time"
+
 	"github.com/micro/go-micro/v2"
 	"github.com/micro/go-micro/v2/registry"
 	"github.com/micro/go-micro/v2/registry/etcd"
 	"github.com/micro/go-micro/v2/web"
-	"github.com/txxzx/goMemorandum/api+GateWay/weblib"
-	"github.com/txxzx/goMemorandum/api+GateWay/wrappers"
-	"github.com/txxzx/goMemorandum/api+gateway/service"
-	"time"
+	"github.com/txxzx/goMemorandum/GateWay/service"
+	"github.com/txxzx/goMemorandum/GateWay/weblib"
+	"github.com/txxzx/goMemorandum/GateWay/wrappers"
 )
 
-/**
-    @date: 2024/7/14
-**/
+/*
+*
+
+	@date: 2024/7/14
+
+*
+*/
 func main() {
 	etcdReg := etcd.NewRegistry(
 		registry.Addrs("127.0.0.1:2379"),

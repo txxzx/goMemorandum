@@ -5,8 +5,9 @@ package utils
 **/
 
 import (
-	"github.com/dgrijalva/jwt-go"
 	"time"
+
+	"github.com/dgrijalva/jwt-go"
 )
 
 var jwtSecret = []byte("TodoList")

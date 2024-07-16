@@ -2,7 +2,8 @@ package handlers
 
 import (
 	"errors"
-	"github.com/txxzx/goMemorandum/api+GateWay/pkg/loggings"
+
+	"github.com/txxzx/goMemorandum/GateWay/pkg/loggings"
 )
 
 /**

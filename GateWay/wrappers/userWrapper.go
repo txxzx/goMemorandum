@@ -6,6 +6,7 @@ package wrappers
 
 import (
 	"context"
+
 	"github.com/afex/hystrix-go/hystrix"
 	"github.com/micro/go-micro/v2/client"
 )
@@ -30,7 +31,7 @@ func (wrapper *userWrapper) Call(ctx context.Context, req client.Request, resp i
 	})
 }
 
-//NewUserWrapper 初始化Wrapper
+// NewUserWrapper 初始化Wrapper
 func NewUserWrapper(c client.Client) client.Client {
 	return &userWrapper{c}
 }

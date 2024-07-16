@@ -6,10 +6,11 @@ package handlers
 
 import (
 	"context"
-	"github.com/gin-gonic/gin"
-	"github.com/txxzx/goMemorandum/api+GateWay/pkg/utils"
-	"github.com/txxzx/goMemorandum/api+gateway/service"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
+	"github.com/txxzx/goMemorandum/GateWay/pkg/utils"
+	"github.com/txxzx/goMemorandum/GateWay/service"
 )
 
 // 用户注册

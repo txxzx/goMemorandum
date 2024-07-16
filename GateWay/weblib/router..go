@@ -4,13 +4,17 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-gonic/gin"
-	"github.com/txxzx/goMemorandum/api+GateWay/weblib/handlers"
-	"github.com/txxzx/goMemorandum/api+GateWay/weblib/middleware"
+	"github.com/txxzx/goMemorandum/GateWay/weblib/handlers"
+	"github.com/txxzx/goMemorandum/GateWay/weblib/middleware"
 )
 
-/**
-    @date: 2024/7/14
-**/
+/*
+*
+
+	@date: 2024/7/14
+
+*
+*/
 func NewRouter(service ...interface{}) *gin.Engine {
 	ginRouter := gin.Default()
 	ginRouter.Use(middleware.Cors(), middleware.InitMiddleware(service), middleware.ErrorMiddleware())
