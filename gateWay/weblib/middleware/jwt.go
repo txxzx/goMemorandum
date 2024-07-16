@@ -6,7 +6,7 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/txxzx/goMemorandum/GateWay/pkg/utils"
+	"github.com/txxzx/goMemorandum/gateWay/pkg/utils"
 )
 
 // JWT token验证中间件

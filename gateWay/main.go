@@ -7,9 +7,9 @@ import (
 	"github.com/micro/go-micro/v2/registry"
 	"github.com/micro/go-micro/v2/registry/etcd"
 	"github.com/micro/go-micro/v2/web"
-	"github.com/txxzx/goMemorandum/GateWay/service"
-	"github.com/txxzx/goMemorandum/GateWay/weblib"
-	"github.com/txxzx/goMemorandum/GateWay/wrappers"
+	"github.com/txxzx/goMemorandum/gateWay/service"
+	"github.com/txxzx/goMemorandum/gateWay/weblib"
+	"github.com/txxzx/goMemorandum/gateWay/wrappers"
 )
 
 /*

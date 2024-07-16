@@ -4,8 +4,8 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-gonic/gin"
-	"github.com/txxzx/goMemorandum/GateWay/weblib/handlers"
-	"github.com/txxzx/goMemorandum/GateWay/weblib/middleware"
+	"github.com/txxzx/goMemorandum/gateWay/weblib/handlers"
+	"github.com/txxzx/goMemorandum/gateWay/weblib/middleware"
 )
 
 /*

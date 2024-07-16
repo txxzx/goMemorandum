@@ -1,4 +1,4 @@
-module github.com/txxzx/goMemorandum/GateWay
+module github.com/txxzx/goMemorandum/gateWay
 
 go 1.20
 

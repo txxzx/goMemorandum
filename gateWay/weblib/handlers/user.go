@@ -9,8 +9,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/txxzx/goMemorandum/GateWay/pkg/utils"
-	"github.com/txxzx/goMemorandum/GateWay/service"
+	"github.com/txxzx/goMemorandum/gateWay/pkg/utils"
+	"github.com/txxzx/goMemorandum/gateWay/service"
 )
 
 // 用户注册
